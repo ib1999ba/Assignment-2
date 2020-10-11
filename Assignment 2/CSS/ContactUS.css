@@ -1,0 +1,80 @@
+*{
+    font-family: 'Adamina';font-size: 23px;
+box-sizing: border-box;
+padding:auto;
+margin: auto;
+margin-top: 5px;
+}
+h2{
+    font-family: 'Adamina';font-size: 23px;
+    text-align: center;
+
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 13px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+    color: blue;
+}
+
+input[type=submit] {
+background-color: chocolate;
+color: white;
+padding: 14px 22px;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+float: right;
+}
+
+input[type=submit]:hover {
+background-color: cyan;
+}
+
+.container {
+border-radius: 5px;
+background-color: gainsboro;
+padding: 20px;
+}
+
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 10px;
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+}
+
+body{
+  background-color: cornsilk;
+  color: black;
+  padding:auto;
+  margin: auto;
+
+}
